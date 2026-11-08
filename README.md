@@ -1,159 +1,180 @@
-# Awesome-Unified-Email-Communication-Inbox
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Unified Email & Communication Inbox" width="100%" />
+</p>
 
 # Awesome Unified Email & Communication Inbox
 
-> A curated list of top Unified Email and Communication Inbox platforms — both SaaS/Hosted commercial solutions and open-source alternatives for collaborative shared inboxes, team email management, and omnichannel communication.  
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Unified-Email-Communication-Inbox/)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+> A curated list of top **Unified Email and Communication Inbox** platforms — both SaaS / commercial solutions and open-source self-hosted alternatives for collaborative shared inboxes, team email management, customer messaging, and omnichannel communication workflows.  
 > 🌟 Star this repo if you find it useful! 🌟
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Front](#front)
-  - [Missive](#missive)
-  - [Hiver](#hiver)
-  - [Superhuman](#superhuman)
-  - [Spark Mail](#spark-mail)
-  - [Help Scout](#help-scout)
-  - [Gmelius](#gmelius)
-  - [Crisp](#crisp)
 - [Open-Source Software](#-open-source-software)
-  - [UnInbox](#uninbox)
   - [Chatwoot](#chatwoot)
-  - [FreeScout](#freescout)
+  - [Mailspring](#mailspring)
+  - [Thunderbird](#thunderbird)
+  - [Roundcube](#roundcube)
   - [Zammad](#zammad)
-  - [LibreDesk](#libredesk)
+  - [FreeScout](#freescout)
+  - [osTicket](#osticket)
   - [Frappe Helpdesk](#frappe-helpdesk)
+  - [LibreDesk](#libredesk)
+  - [UnInbox](#uninbox)
+  - [Trudesk](#trudesk)
   - [Messages (La Suite)](#messages-la-suite)
   - [Cerb](#cerb)
 - [Comparison at a Glance](#-comparison-at-a-glance)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global shared inbox and team communication software market is valued at approximately **$1.5 billion to $1.9 billion** (with the broader Unified Communications as a Service / UCaaS sector surpassing **$75 billion**), exhibiting a compound annual growth rate (CAGR) of 11% to 13%. The market is **moderately fragmented** rather than winner-take-all: while category-defining enterprise platforms like Front and Help Scout capture substantial mid-to-large business volume, strong architectural differentiation (Gmail-embedded overlays like Hiver and Gmelius, hyper-fast executive clients like Superhuman, flat-rate live-chat suites like Crisp, and privacy-preserving self-hosted stacks like Chatwoot) sustains dozens of healthy, specialized contenders across niche segments.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Unified Email and Communication Inbox platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Unified Email and Communication Inbox platforms sorted by company scale (market valuation / revenue) in descending order.
 
-### Front
-**Type:** Collaborative shared inbox for teams  
-Front is the category-defining shared inbox platform, treating email, chat, and messaging as collaborative conversations rather than private mailboxes. Teams can assign threads, add internal notes, use collision detection to prevent duplicate replies, and route messages by rules . Pricing starts at $25/month on the Starter plan ($300/year), scaling significantly for larger teams . Front's strength is its polished email-native collaboration model, with turnkey connectors for Salesforce and multi-channel telephony .  
-**Best for:** Teams wanting a mature, polished shared inbox with deep collaboration features and enterprise integrations, accepting per-seat pricing.
-
-### Missive
-**Type:** Collaborative email and chat app  
-Missive combines email, chat, and task management in a unified interface. Teams can discuss emails in private threads, assign conversations, and collaborate on replies without forwarding. Positioned as a modern alternative to Front and Hiver for teams wanting email-centric collaboration with built-in chat.
-
-### Hiver
-**Type:** Shared Gmail inbox for teams  
-Hiver layers shared mailbox functionality directly on top of Gmail, allowing teams to manage support, sales, and operations emails without leaving their existing email client. Features include shared labels, assignments, collision detection, and analytics. Suited for organizations standardized on Gmail wanting team collaboration without a separate application.
-
-### Superhuman
-**Type:** Fast email client with team features  
-Superhuman is known for its keyboard-driven, blazing-fast email experience, with team features for shared availability and conversation tracking. Focused on individual productivity and speed rather than full shared-inbox collaboration, though it includes some team-oriented capabilities.
-
-### Spark Mail
-**Type:** Smart email client with team collaboration  
-Spark (Readdle) offers a modern email client with smart inbox prioritization, team collaboration features (shared drafts, comments), and integrations. Available across platforms. Suited for teams wanting a polished email client with collaborative touches rather than a full shared-inbox platform.
-
-### Help Scout
-**Type:** Email-first customer support platform  
-Help Scout provides shared inboxes for customer support teams with a focus on email-first conversations. Features include assignments, collision detection, saved replies, and a knowledge base. The interface is designed to feel like email rather than a ticketing system, making it accessible for smaller teams.
-
-### Gmelius
-**Type:** Collaborative Gmail inbox  
-Gmelius extends Gmail with shared inboxes, assignment, collision detection, and workflow automation. Suited for teams already using Gmail who want Hiver-like functionality with a different feature set and pricing model.
-
-### Crisp
-**Type:** Omnichannel customer messaging  
-Crisp combines live chat, email, and messaging channels into a unified inbox. Focused on customer engagement across website chat, email, and social messaging. Suited for businesses wanting a single inbox for multiple customer communication channels.
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Paid) | Free Tier Limits / Trial Limits | Key Focus & Deployment |
+|---|---|---|---|---|
+| **[Front](https://front.com)** | **$1.7B Valuation** ($100M+ ARR) | $25/seat/month (billed annually) | **14-day free trial** (access to Professional features, capped at 15 teammates and 5,000 messages; no credit card required) | Collaborative shared inbox, omnichannel routing, CRM sync |
+| **[Superhuman](https://superhuman.com)** | **$825M Valuation** (~$35M ARR, acquired by Grammarly) | $25/seat/month (billed annually, $30/mo monthly) | **7-day free trial** (full feature access for Gmail & Outlook accounts; no permanent free plan) | Keyboard-first ultra-fast email client with AI drafting |
+| **[Help Scout](https://helpscout.com)** | **~$30M ARR** (Private, $14M+ funding) | $25/user/month (billed annually, $30/mo monthly) | **Free Forever Plan** (up to 5 users, 100 contacts helped/month, 1 shared inbox, 1 Docs site with max 10 articles); 15-day trial for paid tiers | Email-first shared inbox and customer support desk |
+| **[Spark Mail](https://sparkmailapp.com)** | **~$30M+ Revenue** (Readdle, 250+ employees) | $8.25/seat/month (billed annually, $10/mo monthly) | **Free Forever Plan** (unlimited accounts & smart unified inbox; restricted to 1 month of AI email history, 5 lifetime AI meeting notes, and excludes shared inboxes/drafts) | Cross-platform smart unified inbox & team email client |
+| **[Hiver](https://hiverhq.com)** | **~$80M–$120M Est. Valuation** (~$9M–$25M ARR) | $25/user/month (billed annually; 2-seat min, max 10 seats) | **7-day free trial** (unrestricted access to Elite tier features for up to 7 days; no credit card required) | Shared mailbox and collision detection inside native Gmail |
+| **[Missive](https://missiveapp.com)** | **~$7.5M ARR** (Bootstrapped, highly profitable) | $14/user/month (billed annually, $18/mo monthly) | **30-day free trial** (full access to Productive plan features; no permanent free plan; workspace paused after trial until upgraded) | Collaborative email client, team chat & task management |
+| **[Gmelius](https://gmelius.com)** | **~$2.5M–$3M Est. ARR** (Bootstrapped / Seed) | $19/user/month (billed annually; Growth shared inbox starts at $25/user/mo) | **7-day free trial** (evaluates Growth plan features; max 5,000 conversations/month on entry tier; no permanent free plan) | Gmail-native shared inboxes, Kanban boards & automations |
+| **[Crisp](https://crisp.chat)** | **~$1.5M–$2M+ ARR** (Bootstrapped, profitable) | $45/workspace/month (Mini plan, up to 4 seats) | **Free Forever Plan** (up to 2 agent seats, website live chat widget, mobile apps, contact forms, and 30-day conversation history; excludes AI & omnichannel email channels) | Omnichannel customer messaging & shared team inbox |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Unified Email and Communication Inbox tools. The open-source ecosystem splits between **email-native collaborative inboxes** (UnInbox, Messages) and **help desk platforms with shared mailbox functionality** (Chatwoot, FreeScout, Zammad).
-
-### UnInbox
-**Stack:** TypeScript / Nuxt / MySQL / Docker | **License:** AGPL-3.0   
-UnInbox is the most direct open-source alternative to Front, Missive, and Hey.com, explicitly designed as a modern email experience for teams and professionals . Features include shared spaces with private comments attached directly to email threads (without exposing internal text to customers), explicit workflow statuses (open, waiting, completed), direct conversation assignment to prevent duplicate replies, unlimited departmental addresses (support, sales, billing) without per-address fees, and new sender screening . Built on a Nuxt/Vue stack with DrizzleORM and MySQL, deployable via Docker . **Important limitation:** Self-hosting requires manual configuration of SMTP ingress, reverse DNS, and IP reputation for reliable delivery; no native mobile apps (responsive web only) .  
-**Best for:** Boutique agencies and small operations teams wanting an email-native shared inbox with notes and workflow statuses without per-seat fees, accepting self-hosted email infrastructure complexity.
+Self-hosted and community-driven open-source alternatives for email management, shared inboxes, and omnichannel customer communication. Repositories are sorted by GitHub Star counts in descending order, with star badges linking directly to each project's stargazers page.
 
 ### Chatwoot
-**Stack:** Ruby on Rails / Vue / PostgreSQL / Redis | **License:** MIT (Community Edition)   
-Chatwoot is an open-source omnichannel support desk covering email, website live chat, WhatsApp Business, Facebook Messenger, Instagram DMs, SMS, and API-driven custom channels in a single queue . The Community Edition is MIT-licensed and free to self-host, with assignments to individuals and teams, private notes with mentions, typing indicators for collision detection, canned responses, labels, and per-agent workload views . Deployment via Docker Compose or Helm chart. **Trade-off vs Front:** It is support-inbox oriented and weaker than Front for email-first shared drafting, internal collaboration, routing rules, and multi-inbox operations . Enterprise features like SSO/SAML and audit logs require a paid tier, but upgrades are data-preserving .  
-**Best for:** Teams needing a single queue for email plus chat and social channels, wanting MIT licensing and Docker-friendly deployment, accepting that email-native collaboration is less polished than Front.
+[![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+**Repository:** [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | **Stack:** Ruby on Rails / Vue / PostgreSQL / Redis | **License:** MIT  
+Chatwoot is a category-leading open-source customer engagement suite and shared inbox. It unifies email inboxes, website live chat, WhatsApp Business, SMS, Instagram DMs, and Facebook Messenger into a single multi-agent queue. It provides private internal notes, agent collision warnings, custom macros, assignment rules, and workload metrics.
 
-### FreeScout
-**Stack:** PHP / MySQL | **License:** AGPL-3.0   
-FreeScout is a self-hosted shared mailbox and help desk explicitly positioned as a free Zendesk and Help Scout alternative . Features include shared mailboxes via IMAP/SMTP, assignment, private notes, statuses (active, pending, closed), tags, workflows, and per-user activity views . Deployable on a PHP/MySQL host with a web installer, even on shared hosting. **Trade-offs:** The interface is help-desk shaped rather than email-native, and several advanced modules (tags, workflows, SMS, apps) are separate paid add-ons . Self-hosting requires managing PHP upgrades, TLS renewals, SMTP relay deliverability, and backups .  
-**Best for:** Technical teams with a spare VPS or shared hosting wanting a free-forever shared mailbox with help desk features, accepting paid modules for advanced functionality.
+### Mailspring
+[![GitHub stars](https://img.shields.io/github/stars/Foundry376/Mailspring?style=social&color=white)](https://github.com/Foundry376/Mailspring/stargazers)  
+**Repository:** [Foundry376/Mailspring](https://github.com/Foundry376/Mailspring) | **Stack:** JavaScript / Electron / C++ Mailcore2 | **License:** GPL-3.0  
+Mailspring is a fast, extensible desktop email client designed for modern productivity. It features a unified inbox supporting multiple IMAP/SMTP accounts, offline search, read receipts, link tracking, contact profiles, and rich snippets, offering an open-source alternative to Superhuman and Spark.
+
+### Thunderbird
+[![GitHub stars](https://img.shields.io/github/stars/thunderbird/thunderbird-android?style=social&color=white)](https://github.com/thunderbird/thunderbird-android/stargazers)  
+**Repository:** [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | **Stack:** Kotlin / Java / Android | **License:** MPL-2.0 / Apache-2.0  
+The modern open-source mobile unified email application from the Thunderbird team (incorporating K-9 Mail). Supports multiple email accounts, unified mailbox triage, PGP/GPG encryption via OpenKeychain, IMAP IDLE push notifications, and high privacy standards without third-party tracking.
+
+### Roundcube
+[![GitHub stars](https://img.shields.io/github/stars/roundcube/roundcubemail?style=social&color=white)](https://github.com/roundcube/roundcubemail/stargazers)  
+**Repository:** [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) | **Stack:** PHP / MySQL / SQLite / PostgreSQL | **License:** GPL-3.0  
+Roundcube is one of the world's most widely deployed browser-based multilingual IMAP webmail solutions. It features full support for MIME messages, address books, folder management, search-as-you-type, spell checking, and an extensive plugin architecture for enterprise skinning and custom authentication.
 
 ### Zammad
-**Stack:** Ruby on Rails / PostgreSQL / Elasticsearch | **License:** AGPL-3.0   
-Zammad is a mature, web-based open-source help desk and customer support system with 6,017+ GitHub stars and active development . Features include ticketing, ownership, team workflows, SLAs, a knowledge base, email channels, and multi-channel support . Deployment requires Docker Compose or Linux packages with PostgreSQL, Redis, and Elasticsearch/OpenSearch . **Trade-off vs Front:** Zammad treats messages as help-desk tickets rather than preserving Front's lighter, email-native team collaboration model; it is heavier semantically and operationally .  
-**Best for:** Organizations needing a serious ticket desk with SLAs and knowledge base, where email is an input channel rather than the primary workplace.
+[![GitHub stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers)  
+**Repository:** [zammad/zammad](https://github.com/zammad/zammad) | **Stack:** Ruby on Rails / PostgreSQL / Elasticsearch | **License:** AGPL-3.0  
+Zammad is a mature, enterprise-ready web-based customer support system and shared communication platform. It unifies email accounts, telephone, chat, and social channels, offering granular ownership, SLA tracking, audit logging, collision detection, and full-text indexing via OpenSearch/Elasticsearch.
 
-### LibreDesk
-**Stack:** Go / PostgreSQL / Docker | **License:** AGPL-3.0   
-LibreDesk is a modern open-source email-and-live-chat desk in a compact stack, with 2,682+ GitHub stars as of August 2026 . Features include shared inboxes for email and live chat, assignment, and a modern UI. Deployable via Docker or prebuilt binary with PostgreSQL . **Trade-off:** It is a much younger product with a smaller integration, mobile, reporting, and administration ecosystem than Front .  
-**Best for:** Teams wanting a modern, lightweight open-source shared inbox with email and live chat, accepting a younger ecosystem.
+### FreeScout
+[![GitHub stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers)  
+**Repository:** [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | **Stack:** PHP / Laravel / MySQL | **License:** AGPL-3.0  
+FreeScout is a self-hosted shared inbox and helpdesk platform explicitly developed as a lightweight, privacy-respecting alternative to Help Scout and Zendesk. It supports unlimited shared mailboxes via standard IMAP/SMTP, collision detection, internal conversation notes, push notifications, and community modules.
+
+### osTicket
+[![GitHub stars](https://img.shields.io/github/stars/osTicket/osTicket?style=social&color=white)](https://github.com/osTicket/osTicket/stargazers)  
+**Repository:** [osTicket/osTicket](https://github.com/osTicket/osTicket) | **Stack:** PHP / MySQL | **License:** GPL-2.0  
+osTicket is an established open-source support ticket and email management system. It seamlessly routes inquiries created via email, web forms, and phone calls into a multi-user collaborative web queue with auto-responders, configurable routing rules, internal notes, and custom fields.
 
 ### Frappe Helpdesk
-**Stack:** Python / Frappe Framework / Vue | **License:** AGPL-3.0   
-Frappe Helpdesk provides clean shared support queues with assignments and SLAs, built on the Frappe framework (same ecosystem as ERPNext) . Installation requires a Linux server, domain/DNS, Docker or the easy-install script, and mail account configuration . **Trade-off:** It replaces email-native workflows with a separate ticket queue and a Frappe server to operate .  
-**Best for:** Teams already in the Frappe/ERPNext ecosystem wanting helpdesk functionality with SLA support.
+[![GitHub stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers)  
+**Repository:** [frappe/helpdesk](https://github.com/frappe/helpdesk) | **Stack:** Python / Frappe Framework / Vue / TailwindCSS | **License:** AGPL-3.0  
+Built on the extensible Frappe ecosystem, Frappe Helpdesk delivers a modern shared customer support inbox with omnichannel ticket queues, SLA management, automated routing, customer satisfaction surveys (CSAT), and native ERPNext integration.
+
+### LibreDesk
+[![GitHub stars](https://img.shields.io/github/stars/abhinavxd/libredesk?style=social&color=white)](https://github.com/abhinavxd/libredesk/stargazers)  
+**Repository:** [abhinavxd/libredesk](https://github.com/abhinavxd/libredesk) | **Stack:** Go / PostgreSQL / Docker | **License:** AGPL-3.0  
+LibreDesk is a modern, lightweight open-source communication platform delivering unified inboxes for team email and website live chat. Designed as a lean alternative to Front, it offers conversation assignment, internal collaboration, and rapid containerized deployment.
+
+### UnInbox
+[![GitHub stars](https://img.shields.io/github/stars/un/inbox?style=social&color=white)](https://github.com/un/inbox/stargazers)  
+**Repository:** [un/inbox](https://github.com/un/inbox) | **Stack:** TypeScript / Nuxt / Vue / MySQL / Docker | **License:** AGPL-3.0  
+UnInbox is a team email collaboration platform modeled after Front and Hey.com. It offers shared spaces, internal private comments attached to customer email threads, conversation assignment, custom workflow statuses (open, waiting, completed), unlimited departmental addresses, and sender screening.
+
+### Trudesk
+[![GitHub stars](https://img.shields.io/github/stars/polonel/trudesk?style=social&color=white)](https://github.com/polonel/trudesk/stargazers)  
+**Repository:** [polonel/trudesk](https://github.com/polonel/trudesk) | **Stack:** Node.js / MongoDB / Docker | **License:** Apache-2.0  
+Trudesk is an open-source help desk and collaborative ticketing system built with Node.js and MongoDB. It aggregates inbound support emails, enables team ticket assignment, tracks resolution SLAs, and includes real-time push updates and reporting dashboards.
 
 ### Messages (La Suite)
-**Stack:** Python / Django / Postfix / Docker | **License:** Open Source (per project)   
-Messages is a collaborative inbox built for La Suite territoriale (French government), with a full communication platform for teams to collaborate on emails through shared or personal mailboxes . Features include smart threading, attachments, MBOX/IMAP import, full-text search with advanced filters, AI summaries/composer/auto-labelling, shared inboxes, shared threads, and OpenID Connect for all accounts . Uses a custom MTA based on Postfix and a Django Rest Framework backend. **Important:** No POP3 or IMAP client support by design; data model is JMAP-inspired . Deploys via Docker Compose.  
-**Best for:** Government and public sector teams needing a sovereign, collaborative email inbox with AI features and Keycloak integration.
+[![GitHub stars](https://img.shields.io/github/stars/suitenumerique/messages?style=social&color=white)](https://github.com/suitenumerique/messages/stargazers)  
+**Repository:** [suitenumerique/messages](https://github.com/suitenumerique/messages) | **Stack:** Python / Django / Postfix / Vite / Docker | **License:** MIT  
+Messages is a sovereign collaborative inbox platform developed by the French public digital team (DINUM / La Suite). Designed for multi-agent email collaboration, it offers shared mailboxes, thread assignment, AI email summaries/composer, full-text search, and OpenID Connect / Keycloak authentication.
 
 ### Cerb
-**Stack:** PHP / MySQL | **License:** Open Source (per project)   
-Cerb is a fully customizable, web-based platform for enterprise communication and process automation, used by thousands of teams for 15+ years . It creates high-volume shared inboxes with bot-powered email management, workflow automation via the KATA language, and browser-based coding tools. Integrates with any API-based service. **Trade-off:** Older interface and a steeper learning curve for its automation language; smaller active community (79 stars on the main repository) .  
-**Best for:** Organizations needing high-volume shared inboxes with deep, customizable automation, accepting an older UI and learning investment.
+[![GitHub stars](https://img.shields.io/github/stars/cerb/cerb-release?style=social&color=white)](https://github.com/cerb/cerb-release/stargazers)  
+**Repository:** [cerb/cerb-release](https://github.com/cerb/cerb-release) | **Stack:** PHP / MySQL | **License:** Custom Open Source  
+Cerb is a customizable web-based workflow automation and high-volume shared email management system. Used by teams for over 15 years, it features programmable bots, custom email triage pipelines via the KATA automation syntax, and REST API connectors.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Email-Native | Omnichannel | Self-Hosted | Best For |
-|----------|---------|-------|--------------|-------------|-------------|----------|
-| **Front** | Proprietary | Cloud | ✅ | ✅ | ❌ | Polished email-native collaboration |
-| **Missive** | Proprietary | Cloud | ✅ | (Chat) | ❌ | Email + chat collaboration |
-| **Hiver** | Proprietary | Gmail | ✅ | ❌ | ❌ | Gmail-based shared inbox |
-| **Help Scout** | Proprietary | Cloud | ✅ | Limited | ❌ | Email-first support |
-| **Crisp** | Proprietary | Cloud | (Email) | ✅ | ❌ | Omnichannel messaging |
-| **UnInbox** | AGPL-3.0 | TypeScript/MySQL | ✅ | ❌ | ✅ | Front alternative (email-native) |
-| **Chatwoot** | MIT | Ruby/PostgreSQL | (Support) | ✅ | ✅ | Omnichannel + MIT licensing |
-| **FreeScout** | AGPL-3.0 | PHP/MySQL | (Help desk) | ❌ | ✅ | Free-forever shared mailbox |
-| **Zammad** | AGPL-3.0 | Ruby/PostgreSQL | (Ticketing) | ✅ | ✅ | Ticket desk with SLAs |
-| **LibreDesk** | AGPL-3.0 | Go/PostgreSQL | ✅ (Email+chat) | (Chat) | ✅ | Modern lightweight shared inbox |
-| **Frappe Helpdesk** | AGPL-3.0 | Python/Frappe | (Ticket queue) | ❌ | ✅ | Frappe/ERPNext ecosystem |
-| **Messages** | Open Source | Python/Django | ✅ | ❌ | ✅ | Sovereign government inbox |
-| **Cerb** | Open Source | PHP/MySQL | ✅ (Shared) | (API) | ✅ | High-volume + automation |
+| Software | License | Model | Architecture / Stack | Email-Native | Omnichannel | Collision Detection | Best For |
+|---|---|---|---|---|---|---|---|
+| **Front** | Proprietary | SaaS | Cloud | ✅ Yes | ✅ Omnichannel | ✅ Yes | Category-leading collaborative email & enterprise support |
+| **Missive** | Proprietary | SaaS | Cloud | ✅ Yes | 🟡 Chat / SMS | ✅ Yes | Bootstrapped teams wanting shared inboxes with integrated chat |
+| **Superhuman** | Proprietary | SaaS | Cloud (Gmail/Outlook) | ✅ Yes | ❌ Email only | 🟡 Statuses | High-speed executive triage and AI auto-drafting |
+| **Spark Mail** | Proprietary | SaaS / Freemium | Desktop & Mobile | ✅ Yes | ❌ Email only | 🟡 Team drafts | Cross-platform personal & team unified inbox |
+| **Help Scout** | Proprietary | SaaS / Freemium | Cloud | ✅ Yes | 🟡 Live Chat / Beacon | ✅ Yes | Small-to-mid businesses wanting email-first customer support |
+| **Hiver** | Proprietary | SaaS | Chrome / Gmail | ✅ Yes | ❌ Gmail native | ✅ Yes | Teams standardized on Google Workspace without external apps |
+| **Gmelius** | Proprietary | SaaS | Chrome / Gmail | ✅ Yes | ❌ Gmail native | ✅ Yes | Google Workspace teams wanting shared inboxes and Kanban boards |
+| **Crisp** | Proprietary | SaaS / Freemium | Cloud | 🟡 Support Email | ✅ Omnichannel | ✅ Yes | Startups wanting flat-rate live chat, CRM, and customer bots |
+| **Chatwoot** | MIT | Self-Hosted / Cloud | Ruby on Rails / PostgreSQL | 🟡 Support Inbox | ✅ Omnichannel | ✅ Yes | Open-source multi-channel customer engagement & live chat |
+| **Mailspring** | GPL-3.0 | Self-Hosted / Desktop | Electron / C++ | ✅ Yes | ❌ Email only | ❌ Solo triage | Open-source fast desktop unified email client |
+| **Thunderbird** | MPL-2.0 | Self-Hosted / Mobile | Kotlin / Android | ✅ Yes | ❌ Email only | ❌ Solo triage | Open-source mobile unified inbox with PGP encryption |
+| **Roundcube** | GPL-3.0 | Self-Hosted | PHP / MySQL | ✅ Yes | ❌ Email only | ❌ Traditional | Battle-tested webmail interface for IMAP servers |
+| **Zammad** | AGPL-3.0 | Self-Hosted / Cloud | Ruby on Rails / Elasticsearch | 🟡 Ticket desk | ✅ Omnichannel | ✅ Yes | Enterprise customer support desk with strict SLAs |
+| **FreeScout** | AGPL-3.0 | Self-Hosted | PHP / Laravel / MySQL | ✅ Yes | ❌ Email / Modules | ✅ Yes | Self-hosted, lightweight Help Scout alternative on low VPS |
+| **osTicket** | GPL-2.0 | Self-Hosted | PHP / MySQL | 🟡 Ticket desk | ❌ Web / Email | ✅ Yes | Classic open-source customer support ticket management |
+| **Frappe Helpdesk**| AGPL-3.0 | Self-Hosted / Cloud | Python / Frappe / Vue | 🟡 Ticket desk | ❌ Ticket queue | ✅ Yes | Teams in the ERPNext / Frappe business ecosystem |
+| **LibreDesk** | AGPL-3.0 | Self-Hosted | Go / PostgreSQL / Docker | ✅ Yes | 🟡 Email + Chat | ✅ Yes | Modern Go-based lightweight shared inbox |
+| **UnInbox** | AGPL-3.0 | Self-Hosted | TypeScript / Nuxt / MySQL | ✅ Yes | ❌ Email only | ✅ Yes | Front & Hey-style email-native collaboration with shared spaces |
+| **Trudesk** | Apache-2.0 | Self-Hosted | Node.js / MongoDB | 🟡 Ticket desk | ❌ Web / Email | ✅ Yes | Node.js-based collaborative ticketing and issue tracking |
+| **Messages** | MIT | Self-Hosted | Python / Django / Postfix | ✅ Yes | ❌ Email only | ✅ Yes | Public sector & sovereign enterprise collaborative mail |
+| **Cerb** | Open Source | Self-Hosted | PHP / MySQL | ✅ Yes | 🟡 API / Bots | ✅ Yes | High-volume transactional shared inboxes with custom bots |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Unified Email or Communication Inbox tool that should be listed here, please open a pull request with:
+Contributions are welcome! If you know of an open-source or notable Unified Email or Communication Inbox tool that should be listed here, please open a pull request.
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between email-native collaborative inboxes (UnInbox, Messages) that most closely replicate Front/Missive, and help desk platforms (Chatwoot, FreeScout, Zammad) that add shared mailbox functionality but treat email as a support channel rather than a collaborative workspace. UnInbox is currently the closest open-source equivalent to Front's email-native team collaboration model.
+Guidelines:
+- Projects should be actively maintained (commits or releases within the last 12 months).
+- Open-source tools must have a public repository with an OSI-approved or open-source license.
+- Please follow the existing markdown table and section format.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This collection is released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+⭐ **If this repository helped you find the right unified inbox tool, please consider starring it on GitHub!** ⭐

@@ -103,57 +103,57 @@
     <line x1="1050" y1="0" x2="1050" y2="360" />
   </g>
 
-  <!-- Animated Supply-Chain Data Flow Paths (Background layer) -->
+  <!-- Animated Data Flow Paths -->
   <g fill="none" stroke-width="2">
     <path class="circuit-flow" stroke="#38bdf8" opacity="0.4" d="M -50,90 Q 250,30 500,100 T 1000,60 T 1250,110" />
     <path class="circuit-flow" stroke="#a855f7" opacity="0.3" d="M -50,290 Q 300,340 600,280 T 1100,320 T 1250,270" />
     <path class="circuit-flow" stroke="#34d399" opacity="0.25" d="M -30,180 C 200,250 400,120 700,200 S 1100,150 1250,220" />
   </g>
 
-  <!-- Floating Feature Badges (Pills placed on margins, title stays pristine in center) -->
+  <!-- Floating Feature Badges -->
   <g class="floating-pill-1" transform="translate(60, 48)">
     <rect width="180" height="34" rx="17" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
     <circle cx="20" cy="17" r="5" fill="#38bdf8" filter="url(#subtle-glow)" />
-    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🤝 VENDOR ONBOARDING</text>
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">📥 SHARED INBOX</text>
   </g>
 
   <g class="floating-pill-2" transform="translate(950, 48)">
     <rect width="190" height="34" rx="17" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" />
     <circle cx="20" cy="17" r="5" fill="#818cf8" filter="url(#subtle-glow)" />
-    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🛡️ THIRD-PARTY RISK</text>
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">💬 OMNICHANNEL</text>
   </g>
 
   <g class="floating-pill-3" transform="translate(70, 276)">
     <rect width="180" height="34" rx="17" fill="url(#pill-grad)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.6" />
     <circle cx="20" cy="17" r="5" fill="#34d399" filter="url(#subtle-glow)" />
-    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">📦 PROCURE-TO-PAY</text>
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">👥 COLLABORATIVE</text>
   </g>
 
   <g class="floating-pill-1" transform="translate(940, 276)">
     <rect width="200" height="34" rx="17" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6" />
     <circle cx="20" cy="17" r="5" fill="#c084fc" filter="url(#subtle-glow)" />
-    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">📊 SPEND &amp; CONTRACTS</text>
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🤖 AI TRIAGE &amp; SLAs</text>
   </g>
 
-  <!-- FOREGROUND: Main Title and Subtitle Header (Sharp, unobstructed, high-contrast) -->
+  <!-- FOREGROUND: Main Title and Subtitle Header -->
   <g text-anchor="middle">
     <!-- Category Pill -->
     <rect x="475" y="65" width="250" height="28" rx="14" fill="#1e293b" stroke="#64748b" stroke-width="1" opacity="0.9" />
     <text x="600" y="83" fill="#94a3b8" font-size="11" font-weight="700" letter-spacing="1.5">🌟 CURATED DIRECTORY</text>
 
     <!-- Main Title -->
-    <text x="600" y="150" fill="url(#primary-grad)" font-size="44" font-weight="900" letter-spacing="-0.5">
-      Awesome Vendor &amp; Supplier Management
+    <text x="600" y="150" fill="url(#primary-grad)" font-size="42" font-weight="900" letter-spacing="-0.5">
+      Awesome Unified Communication Inbox
     </text>
 
     <!-- Subtitle -->
     <text x="600" y="192" fill="#f1f5f9" font-size="18" font-weight="500" letter-spacing="0.2">
-      Enterprise SaaS Platforms • Open-Source Procurement • Supplier Lifecycle &amp; TPRM
+      Shared Inboxes • Omnichannel Messaging • Collaborative Email &amp; Helpdesks
     </text>
 
     <!-- Feature Tags Row -->
     <text x="600" y="232" fill="#94a3b8" font-size="13" font-weight="400">
-      ⚡ Live Pricing Benchmarks &nbsp;•&nbsp; 🏢 Enterprise Market Valuation &nbsp;•&nbsp; 🔓 Self-Hosted Alternatives
+      ⚡ Live Pricing Benchmarks &nbsp;•&nbsp; 🏢 Enterprise Scale &amp; ARR &nbsp;•&nbsp; 🔓 Self-Hosted Alternatives
     </text>
   </g>
 
