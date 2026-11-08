@@ -2,39 +2,46 @@
   <img src="assets/banner.svg" alt="Awesome Unified Email & Communication Inbox" width="100%" />
 </p>
 
-# Awesome Unified Email & Communication Inbox
+# 📬 Awesome Unified Email & Communication Inbox
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Unified-Email-Communication-Inbox/)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://www.trackawesomelist.com/ishandutta2007/Awesome-Unified-Email-Communication-Inbox/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-> A curated list of top **Unified Email and Communication Inbox** platforms — both SaaS / commercial solutions and open-source self-hosted alternatives for collaborative shared inboxes, team email management, customer messaging, and omnichannel communication workflows.  
-> 🌟 Star this repo if you find it useful! 🌟
+> 🌟 A curated directory of premier **Unified Email and Communication Inbox** platforms — spanning enterprise SaaS/hosted solutions and open-source self-hosted stacks for collaborative shared inboxes, team email triage, customer messaging, and omnichannel communication workflows.  
+> 🌟 **Star this repo if you find it useful!** 🌟
 
 ---
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-  - [Chatwoot](#chatwoot)
-  - [Mailspring](#mailspring)
-  - [Thunderbird](#thunderbird)
-  - [Roundcube](#roundcube)
-  - [Zammad](#zammad)
-  - [FreeScout](#freescout)
-  - [osTicket](#osticket)
-  - [Frappe Helpdesk](#frappe-helpdesk)
-  - [LibreDesk](#libredesk)
-  - [UnInbox](#uninbox)
-  - [Trudesk](#trudesk)
-  - [Messages (La Suite)](#messages-la-suite)
-  - [Cerb](#cerb)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [💬 Chatwoot](#chatwoot)
+  - [⚡ Mailspring](#mailspring)
+  - [🦅 Thunderbird](#thunderbird)
+  - [🌐 Roundcube](#roundcube)
+  - [🛡️ Zammad](#zammad)
+  - [🕊️ FreeScout](#freescout)
+  - [🎫 osTicket](#osticket)
+  - [📦 Frappe Helpdesk](#frappe-helpdesk)
+  - [🚀 LibreDesk](#libredesk)
+  - [📬 UnInbox](#uninbox)
+  - [🛠️ Trudesk](#trudesk)
+  - [🇫🇷 Messages (La Suite)](#messages-la-suite)
+  - [🤖 Cerb](#cerb)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
@@ -48,7 +55,7 @@ The global shared inbox and team communication software market is valued at appr
 
 Commercial, cloud-hosted Unified Email and Communication Inbox platforms sorted by company scale (market valuation / revenue) in descending order.
 
-| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Paid) | Free Tier Limits / Trial Limits | Key Focus & Deployment |
+| 🏢 Platform | 💰 Company Scale (Valuation / Revenue) | 🏷️ Starting Pricing (Paid) | 🎁 Free Tier Limits / Trial Limits | 🎯 Key Focus & Deployment |
 |---|---|---|---|---|
 | **[Front](https://front.com)** | **$1.7B Valuation** ($100M+ ARR) | $25/seat/month (billed annually) | **14-day free trial** (access to Professional features, capped at 15 teammates and 5,000 messages; no credit card required) | Collaborative shared inbox, omnichannel routing, CRM sync |
 | **[Superhuman](https://superhuman.com)** | **$825M Valuation** (~$35M ARR, acquired by Grammarly) | $25/seat/month (billed annually, $30/mo monthly) | **7-day free trial** (full feature access for Gmail & Outlook accounts; no permanent free plan) | Keyboard-first ultra-fast email client with AI drafting |
@@ -134,7 +141,7 @@ Cerb is a customizable web-based workflow automation and high-volume shared emai
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Model | Architecture / Stack | Email-Native | Omnichannel | Collision Detection | Best For |
+| 🛠️ Software | 📜 License | ☁️ Model | 💻 Architecture / Stack | ✉️ Email-Native | 🌐 Omnichannel | 🛑 Collision Detection | 🎯 Best For |
 |---|---|---|---|---|---|---|---|
 | **Front** | Proprietary | SaaS | Cloud | ✅ Yes | ✅ Omnichannel | ✅ Yes | Category-leading collaborative email & enterprise support |
 | **Missive** | Proprietary | SaaS | Cloud | ✅ Yes | 🟡 Chat / SMS | ✅ Yes | Bootstrapped teams wanting shared inboxes with integrated chat |
@@ -160,14 +167,34 @@ Cerb is a customizable web-based workflow automation and high-volume shared emai
 
 ---
 
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Unified-Email-Communication-Inbox&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Unified-Email-Communication-Inbox&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+A huge thank you to everyone exploring, adopting, and sharing this curated directory! 🎉
+
+If you find this collection helpful for discovering tools or setting up your team's communication inbox, please consider:
+- ⭐ **Starring this repository** on GitHub
+- 🍴 **Forking it** to contribute additions or adaptations
+- 📢 **Sharing it** with your network, team, and communities
+- ☕ **Sponsoring the project / buying a coffee** via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Your support keeps this guide fresh, actively researched, and freely available for all builders and developers!
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you know of an open-source or notable Unified Email or Communication Inbox tool that should be listed here, please open a pull request.
 
 Guidelines:
-- Projects should be actively maintained (commits or releases within the last 12 months).
-- Open-source tools must have a public repository with an OSI-approved or open-source license.
-- Please follow the existing markdown table and section format.
+- 📌 Projects should be actively maintained (commits or releases within the last 12 months).
+- 🔓 Open-source tools must have a public repository with an OSI-approved or open-source license.
+- 📝 Please follow the existing markdown table and section format.
 
 ---
 
