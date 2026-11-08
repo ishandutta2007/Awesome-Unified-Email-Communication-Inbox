@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#0b0f19;border-radius:14px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;overflow:hidden;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0a101f" />
+    </linearGradient>
+
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="pill-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.7" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    /* Dynamic pulsing & flowing background circuits */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1); opacity: 0.25; }
+      50% { transform: scale(1.18); opacity: 0.45; }
+    }
+    @keyframes flowLine {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes floatPillReverse {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(7px); }
+    }
+
+    .orb-glow-1 {
+      transform-origin: 1050px 80px;
+      animation: pulseOrb 8s ease-in-out infinite;
+    }
+    .orb-glow-2 {
+      transform-origin: 150px 280px;
+      animation: pulseOrb 10s ease-in-out infinite reverse;
+    }
+    .circuit-flow {
+      stroke-dasharray: 12, 12;
+      animation: flowLine 25s linear infinite;
+    }
+    .floating-pill-1 {
+      animation: floatPill 5s ease-in-out infinite;
+    }
+    .floating-pill-2 {
+      animation: floatPillReverse 6s ease-in-out infinite;
+    }
+    .floating-pill-3 {
+      animation: floatPill 5.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" />
+
+  <!-- Dynamic Ambient Glowing Orbs in Background -->
+  <g class="orb-glow-1">
+    <circle cx="1050" cy="80" r="180" fill="#6366f1" filter="url(#glow)" opacity="0.25" />
+  </g>
+  <g class="orb-glow-2">
+    <circle cx="120" cy="300" r="160" fill="#0284c7" filter="url(#glow)" opacity="0.2" />
+  </g>
+
+  <!-- Grid Pattern -->
+  <g stroke="#334155" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Animated Supply-Chain Data Flow Paths (Background layer) -->
+  <g fill="none" stroke-width="2">
+    <path class="circuit-flow" stroke="#38bdf8" opacity="0.4" d="M -50,90 Q 250,30 500,100 T 1000,60 T 1250,110" />
+    <path class="circuit-flow" stroke="#a855f7" opacity="0.3" d="M -50,290 Q 300,340 600,280 T 1100,320 T 1250,270" />
+    <path class="circuit-flow" stroke="#34d399" opacity="0.25" d="M -30,180 C 200,250 400,120 700,200 S 1100,150 1250,220" />
+  </g>
+
+  <!-- Floating Feature Badges (Pills placed on margins, title stays pristine in center) -->
+  <g class="floating-pill-1" transform="translate(60, 48)">
+    <rect width="180" height="34" rx="17" fill="url(#pill-grad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="20" cy="17" r="5" fill="#38bdf8" filter="url(#subtle-glow)" />
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🤝 VENDOR ONBOARDING</text>
+  </g>
+
+  <g class="floating-pill-2" transform="translate(950, 48)">
+    <rect width="190" height="34" rx="17" fill="url(#pill-grad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="20" cy="17" r="5" fill="#818cf8" filter="url(#subtle-glow)" />
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🛡️ THIRD-PARTY RISK</text>
+  </g>
+
+  <g class="floating-pill-3" transform="translate(70, 276)">
+    <rect width="180" height="34" rx="17" fill="url(#pill-grad)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="20" cy="17" r="5" fill="#34d399" filter="url(#subtle-glow)" />
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">📦 PROCURE-TO-PAY</text>
+  </g>
+
+  <g class="floating-pill-1" transform="translate(940, 276)">
+    <rect width="200" height="34" rx="17" fill="url(#pill-grad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="20" cy="17" r="5" fill="#c084fc" filter="url(#subtle-glow)" />
+    <text x="35" y="22" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">📊 SPEND &amp; CONTRACTS</text>
+  </g>
+
+  <!-- FOREGROUND: Main Title and Subtitle Header (Sharp, unobstructed, high-contrast) -->
+  <g text-anchor="middle">
+    <!-- Category Pill -->
+    <rect x="475" y="65" width="250" height="28" rx="14" fill="#1e293b" stroke="#64748b" stroke-width="1" opacity="0.9" />
+    <text x="600" y="83" fill="#94a3b8" font-size="11" font-weight="700" letter-spacing="1.5">🌟 CURATED DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text x="600" y="150" fill="url(#primary-grad)" font-size="44" font-weight="900" letter-spacing="-0.5">
+      Awesome Vendor &amp; Supplier Management
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="192" fill="#f1f5f9" font-size="18" font-weight="500" letter-spacing="0.2">
+      Enterprise SaaS Platforms • Open-Source Procurement • Supplier Lifecycle &amp; TPRM
+    </text>
+
+    <!-- Feature Tags Row -->
+    <text x="600" y="232" fill="#94a3b8" font-size="13" font-weight="400">
+      ⚡ Live Pricing Benchmarks &nbsp;•&nbsp; 🏢 Enterprise Market Valuation &nbsp;•&nbsp; 🔓 Self-Hosted Alternatives
+    </text>
+  </g>
+
+  <!-- Subtle bottom border accent line -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#primary-grad)" />
+</svg>
