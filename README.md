@@ -70,70 +70,70 @@ Commercial, cloud-hosted Unified Email and Communication Inbox platforms sorted 
 
 ## 🟩 Open-Source Software
 
-Self-hosted and community-driven open-source alternatives for email management, shared inboxes, and omnichannel customer communication. Repositories are sorted by GitHub Star counts in descending order, with star badges linking directly to each project's stargazers page.
+Self-hosted and community-driven open-source alternatives for email management, shared inboxes, and omnichannel customer communication. Repositories are sorted by GitHub Stars_Counts in descending order, with Stars_Badges linking directly to each project's stargazers page.
 
 ### Chatwoot
-[![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
 **Repository:** [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | **Stack:** Ruby on Rails / Vue / PostgreSQL / Redis | **License:** MIT  
 Chatwoot is a category-leading open-source customer engagement suite and shared inbox. It unifies email inboxes, website live chat, WhatsApp Business, SMS, Instagram DMs, and Facebook Messenger into a single multi-agent queue. It provides private internal notes, agent collision warnings, custom macros, assignment rules, and workload metrics.
 
 ### Mailspring
-[![GitHub stars](https://img.shields.io/github/stars/Foundry376/Mailspring?style=social&color=white)](https://github.com/Foundry376/Mailspring/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/Foundry376/Mailspring?style=social&color=white)](https://github.com/Foundry376/Mailspring/stargazers)  
 **Repository:** [Foundry376/Mailspring](https://github.com/Foundry376/Mailspring) | **Stack:** JavaScript / Electron / C++ Mailcore2 | **License:** GPL-3.0  
 Mailspring is a fast, extensible desktop email client designed for modern productivity. It features a unified inbox supporting multiple IMAP/SMTP accounts, offline search, read receipts, link tracking, contact profiles, and rich snippets, offering an open-source alternative to Superhuman and Spark.
 
 ### Thunderbird
-[![GitHub stars](https://img.shields.io/github/stars/thunderbird/thunderbird-android?style=social&color=white)](https://github.com/thunderbird/thunderbird-android/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/thunderbird/thunderbird-android?style=social&color=white)](https://github.com/thunderbird/thunderbird-android/stargazers)  
 **Repository:** [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | **Stack:** Kotlin / Java / Android | **License:** MPL-2.0 / Apache-2.0  
 The modern open-source mobile unified email application from the Thunderbird team (incorporating K-9 Mail). Supports multiple email accounts, unified mailbox triage, PGP/GPG encryption via OpenKeychain, IMAP IDLE push notifications, and high privacy standards without third-party tracking.
 
 ### Roundcube
-[![GitHub stars](https://img.shields.io/github/stars/roundcube/roundcubemail?style=social&color=white)](https://github.com/roundcube/roundcubemail/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/roundcube/roundcubemail?style=social&color=white)](https://github.com/roundcube/roundcubemail/stargazers)  
 **Repository:** [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) | **Stack:** PHP / MySQL / SQLite / PostgreSQL | **License:** GPL-3.0  
 Roundcube is one of the world's most widely deployed browser-based multilingual IMAP webmail solutions. It features full support for MIME messages, address books, folder management, search-as-you-type, spell checking, and an extensive plugin architecture for enterprise skinning and custom authentication.
 
 ### Zammad
-[![GitHub stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers)  
 **Repository:** [zammad/zammad](https://github.com/zammad/zammad) | **Stack:** Ruby on Rails / PostgreSQL / Elasticsearch | **License:** AGPL-3.0  
 Zammad is a mature, enterprise-ready web-based customer support system and shared communication platform. It unifies email accounts, telephone, chat, and social channels, offering granular ownership, SLA tracking, audit logging, collision detection, and full-text indexing via OpenSearch/Elasticsearch.
 
 ### FreeScout
-[![GitHub stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/freescout-help-desk/freescout?style=social&color=white)](https://github.com/freescout-help-desk/freescout/stargazers)  
 **Repository:** [freescout-help-desk/freescout](https://github.com/freescout-help-desk/freescout) | **Stack:** PHP / Laravel / MySQL | **License:** AGPL-3.0  
 FreeScout is a self-hosted shared inbox and helpdesk platform explicitly developed as a lightweight, privacy-respecting alternative to Help Scout and Zendesk. It supports unlimited shared mailboxes via standard IMAP/SMTP, collision detection, internal conversation notes, push notifications, and community modules.
 
 ### osTicket
-[![GitHub stars](https://img.shields.io/github/stars/osTicket/osTicket?style=social&color=white)](https://github.com/osTicket/osTicket/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/osTicket/osTicket?style=social&color=white)](https://github.com/osTicket/osTicket/stargazers)  
 **Repository:** [osTicket/osTicket](https://github.com/osTicket/osTicket) | **Stack:** PHP / MySQL | **License:** GPL-2.0  
 osTicket is an established open-source support ticket and email management system. It seamlessly routes inquiries created via email, web forms, and phone calls into a multi-user collaborative web queue with auto-responders, configurable routing rules, internal notes, and custom fields.
 
 ### Frappe Helpdesk
-[![GitHub stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers)  
 **Repository:** [frappe/helpdesk](https://github.com/frappe/helpdesk) | **Stack:** Python / Frappe Framework / Vue / TailwindCSS | **License:** AGPL-3.0  
 Built on the extensible Frappe ecosystem, Frappe Helpdesk delivers a modern shared customer support inbox with omnichannel ticket queues, SLA management, automated routing, customer satisfaction surveys (CSAT), and native ERPNext integration.
 
 ### LibreDesk
-[![GitHub stars](https://img.shields.io/github/stars/abhinavxd/libredesk?style=social&color=white)](https://github.com/abhinavxd/libredesk/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/abhinavxd/libredesk?style=social&color=white)](https://github.com/abhinavxd/libredesk/stargazers)  
 **Repository:** [abhinavxd/libredesk](https://github.com/abhinavxd/libredesk) | **Stack:** Go / PostgreSQL / Docker | **License:** AGPL-3.0  
 LibreDesk is a modern, lightweight open-source communication platform delivering unified inboxes for team email and website live chat. Designed as a lean alternative to Front, it offers conversation assignment, internal collaboration, and rapid containerized deployment.
 
 ### UnInbox
-[![GitHub stars](https://img.shields.io/github/stars/un/inbox?style=social&color=white)](https://github.com/un/inbox/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/un/inbox?style=social&color=white)](https://github.com/un/inbox/stargazers)  
 **Repository:** [un/inbox](https://github.com/un/inbox) | **Stack:** TypeScript / Nuxt / Vue / MySQL / Docker | **License:** AGPL-3.0  
 UnInbox is a team email collaboration platform modeled after Front and Hey.com. It offers shared spaces, internal private comments attached to customer email threads, conversation assignment, custom workflow statuses (open, waiting, completed), unlimited departmental addresses, and sender screening.
 
 ### Trudesk
-[![GitHub stars](https://img.shields.io/github/stars/polonel/trudesk?style=social&color=white)](https://github.com/polonel/trudesk/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/polonel/trudesk?style=social&color=white)](https://github.com/polonel/trudesk/stargazers)  
 **Repository:** [polonel/trudesk](https://github.com/polonel/trudesk) | **Stack:** Node.js / MongoDB / Docker | **License:** Apache-2.0  
 Trudesk is an open-source help desk and collaborative ticketing system built with Node.js and MongoDB. It aggregates inbound support emails, enables team ticket assignment, tracks resolution SLAs, and includes real-time push updates and reporting dashboards.
 
 ### Messages (La Suite)
-[![GitHub stars](https://img.shields.io/github/stars/suitenumerique/messages?style=social&color=white)](https://github.com/suitenumerique/messages/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/suitenumerique/messages?style=social&color=white)](https://github.com/suitenumerique/messages/stargazers)  
 **Repository:** [suitenumerique/messages](https://github.com/suitenumerique/messages) | **Stack:** Python / Django / Postfix / Vite / Docker | **License:** MIT  
 Messages is a sovereign collaborative inbox platform developed by the French public digital team (DINUM / La Suite). Designed for multi-agent email collaboration, it offers shared mailboxes, thread assignment, AI email summaries/composer, full-text search, and OpenID Connect / Keycloak authentication.
 
 ### Cerb
-[![GitHub stars](https://img.shields.io/github/stars/cerb/cerb-release?style=social&color=white)](https://github.com/cerb/cerb-release/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/cerb/cerb-release?style=social&color=white)](https://github.com/cerb/cerb-release/stargazers)  
 **Repository:** [cerb/cerb-release](https://github.com/cerb/cerb-release) | **Stack:** PHP / MySQL | **License:** Custom Open Source  
 Cerb is a customizable web-based workflow automation and high-volume shared email management system. Used by teams for over 15 years, it features programmable bots, custom email triage pipelines via the KATA automation syntax, and REST API connectors.
 
