@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Awesome Unified Email & Communication Inbox" width="100%" />
-</p>
+<div align="center">
+
+![Awesome Unified Email & Communication Inbox Banner](./assets/banner.svg)
 
 # 📬 Awesome Unified Email & Communication Inbox
 
