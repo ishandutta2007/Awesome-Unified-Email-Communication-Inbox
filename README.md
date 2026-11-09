@@ -70,7 +70,7 @@ Commercial, cloud-hosted Unified Email and Communication Inbox platforms sorted 
 
 ## 🟩 Open-Source Software
 
-Self-hosted and community-driven open-source alternatives for email management, shared inboxes, and omnichannel customer communication. Repositories are sorted by GitHub Stars_Counts in descending order, with Stars_Badges linking directly to each project's stargazers page.
+Self-hosted and community-driven open-source alternatives for email management, shared inboxes, and omnichannel customer communication. Repositories are sorted by GitHub_Stars_Counts in descending order, with Stars_Badges linking directly to each project's stargazers page.
 
 ### Chatwoot
 [![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
